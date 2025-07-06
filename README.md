@@ -7,7 +7,7 @@ This **Streamlit web application** combines machine learning with clinical insig
 
 ## 💻 Web App Preview
 
-![App Preview](https://github.com/user-attachments/assets/your-screenshot.png) <!-- Replace with your screenshot -->
+![App Preview](https://github.com/user-attachments/assets/29f6cc79-81b4-432a-b10d-853c7fb2136a)
 
 ---
 
@@ -99,3 +99,52 @@ Each module provides:
 ```bash
 git clone https://github.com/your-username/smart-medical-diagnosis
 cd smart-medical-diagnosis
+```
+2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+3. Make sure model files are in the same directory:
+```bash
+diabetes_model.pkl  
+heart_disease_model.pkl  
+parkinsons_model.pkl  
+breast_cancer_model.pkl  
+Random_forest_model.pkl
+```
+4.Run the app
+```bash
+streamlit run app.py
+```
+
+---
+
+## 🧑‍⚕️ Fun Fact
+- One of the predictions this app can make is:
+   "(vertigo) Paroymsal Positional Vertigo"
+  Sounds scary—but with a recommendation and care, it becomes manageable!
+
+---
+
+## 📎 Author
+
+Made with ❤️ by **Manthan Jadav**  
+📫 [LinkedIn](https://www.linkedin.com/in/manthanjadav/) | ✉️ [Email](mailto:manthanjadav746@gmail.com)
+
+---
+
+## 📢 License
+
+Free to use, improve, or deploy. 
+This tool is for educational and assistive use only. Not a substitute for professional medical advice.
+
+---
+
+### ✅ Want This As a File?
+
+Would you like me to:
+- Save this as a downloadable `README.md` file?
+- Add a project badge or screenshot placeholder?
+- Help you set this up on GitHub?
+
+Let me know what you'd like next!
